@@ -1,0 +1,229 @@
+<!DOCTYPE html>
+<html>
+<head>
+        <link rel=stylesheet type="text/css" href="static/css/style.css">
+        <link rel='stylesheet' href='https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css'>  
+        <meta charset="UTF-8">
+        <title>Ansiedad</title>
+        <meta name="viewport" content="width=device-width, user-scalable=no, initial-scale=1, maximum-scale=1, minimum-scale=1">
+    </head>
+
+<body>
+        <header>
+            <input type="checkbox" id="btn-menu">
+            <label for="btn-menu"><img src="static/img/icon_menu.png" style="width: 100%;" alt=""/></label>
+            <nav class="menu">
+                <ul>
+                    <li><a href="#">Inicio</a></li>
+                    <li><a href="talleres.html">Talleres</a></li>
+                    <li><a href="referencias.html">Referencias</a></li>
+                    <li><a href="contacto.html">Contacto</a></li>
+                </ul>
+            </nav>
+        </header>
+        <div class="main-container">
+        	<div class="heading">
+	        	<h1 class="heading__title">Atención Psicológica</h1>
+		    <p class="heading__credits">Online</p>
+		</div>
+		  <div class="cards">
+		    <div class="card card-1">
+		      <div class="card__icon"><i class="fa fa-commenting"></i></div>
+		      <h3 class="card__title">Apoyo psicológico de forma gratuita, mediante el Centro Cultural Emocional de la Familia</h3>
+		      <p class="card__apply">
+		        <a class="card__link" href="https://tulancingo.com.mx/g/160914-d.htm">Información <i class="fa fa-arrow-right"></i></a>
+		      </p>
+		    </div>
+		    <div class="card card-2">
+		      <div class="card__icon"><i class="fa fa-commenting"></i></div>
+		      <h3 class="card__title">Servicio las 24 hrs por parte de UAEH, a través de Facebook Messenger</h3>
+		      <p class="card__apply">
+		        <a class="card__link" href="https://www.facebook.com/PSICSaUAEH/">Contacta aquí <i class="fa fa-arrow-right"></i></a>
+		      </p>
+		    </div>
+		    <div class="card card-3">
+		      <div class="card__icon"><i class="fa fa-commenting"></i></div>
+		      <h3 class="card__title">UNAM ofrece servicio psicológico a distancia</h3>
+		      <p class="card__apply">
+		        <a class="card__link" href="http://ww1.atencionpsicologicaadistanciaunam.com/">Entérate aquí <i class="fa fa-arrow-right"></i></a>
+		      </p>
+		    </div>
+		    <div class="card card-4">
+		      <div class="card__icon"><i class="fa fa-commenting"></i></div>
+		      <h3 class="card__title">SAPTEL atención psicológica 24/7 para ti </h3>
+		      <p class="card__apply">
+		        <a class="card__link" href="https://www.saptel.org.mx">Información <i class="fa fa-arrow-right"></i></a>
+		      </p>
+		    </div>
+        <div class="card card-5">
+          <div class="card__icon"><i class="fa fa-commenting"></i></div>
+          <h3 class="card__title">LOCATEL, ofrece el "Chat Psicológico"</h3>
+          <p class="card__apply">
+            <a class="card__link" href="www.locatel.cdmx.gob.mx">Información <i class="fa fa-arrow-right"></i></a>
+          </p>
+        </div>
+        <div class="card card-6">
+          <div class="card__icon"><i class="fa fa-commenting"></i></div>
+          <h3 class="card__title">Consejo ciudadano, brinda atención psicológica vía WhatsApp</h3>
+          <p class="card__apply">
+            <a class="card__link" href="https://consejociudadanomx.org/index.php/es/">Información <i class="fa fa-arrow-right"></i></a>
+          </p>
+        </div>
+        <div class="card card-7">
+          <div class="card__icon"><i class="fa fa-commenting"></i></div>
+          <h3 class="card__title">Centros de Integración Juvenil, brinda atención de 8:30 a 22:00</h3>
+          <p class="card__apply">
+            <a class="card__link" href="http://www.cij.gob.mx/cijcontigo/">Información <i class="fa fa-arrow-right"></i></a>
+          </p>
+        </div>
+        <div class="card card-8">
+          <div class="card__icon"><i class="fa fa-commenting"></i></div>
+          <h3 class="card__title">Directorio con mas centros de atención psicológica</h3>
+          <p class="card__apply">
+            <a class="card__link" href="https://upn.mx/index.php/component/phocadownload/category/11-estudiantes?download=833:directorio-instituciones-apoyo-psicolo-gico-julio-2021">Información <i class="fa fa-arrow-right"></i></a>
+          </p>
+        </div>
+		 </div>
+		</div>
+</body>
+</html>
+<style type="text/css">
+.main-container {
+  padding: 30px;
+}
+
+/* HEADING */
+
+.heading {
+  text-align: center;
+}
+
+.heading__title {
+  font-weight: 600;
+}
+
+.heading__credits {
+  margin: 10px 0px;
+  color: #888888;
+  font-size: 25px;
+  transition: all 0.5s;
+}
+
+.heading__link {
+  text-decoration: none;
+}
+
+.heading__credits .heading__link {
+  color: inherit;
+}
+
+body {
+  font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Helvetica,
+    Arial, sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol";
+}
+
+.cards {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  
+}
+
+.card {
+  margin: 15px;
+  padding: 15px;
+  width: 300px;
+  min-height: 200px;
+  display: grid;
+  grid-template-rows: 30px 50px .9fr 50px;
+  border-radius: 10px;
+  box-shadow: 0px 6px 10px rgba(0, 0, 0, 0.25);
+  transition: all 0.2s;
+}
+
+.card:hover {
+  box-shadow: 0px 6px 10px rgba(0, 0, 0, 0.4);
+  transform: scale(1.01);
+}
+
+.card__link,
+.card__icon {
+  position: relative;
+  text-decoration: none;
+  color: rgba(255, 255, 255, 0.9);
+}
+
+.card__link::after {
+  position: absolute;
+  top: 25px;
+  left: 0;
+  content: "";
+  width: 0%;
+  height: 3px;
+  background-color: rgba(255, 255, 255, 0.6);
+  transition: all 0.5s;
+}
+
+.card__link:hover::after {
+  width: 100%;
+}
+
+.card__icon {
+  grid-row: 2/3;
+  font-size: 30px;
+}
+
+.card__title {
+  grid-row: 3/4;
+  font-weight: 400;
+  color: #ffffff;
+}
+
+.card__apply {
+  grid-row: 4/5;
+  align-self: center;
+}
+
+/* CARD BACKGROUNDS */
+
+.card-1 {
+  background: linear-gradient(to bottom, #6dd5ed , #2193b0);
+}
+
+.card-2 {
+  background: linear-gradient(to bottom, #753a88 , #cc2b5e);
+}
+
+.card-3 {
+  background: linear-gradient(to bottom, #bdc3c7  , #2c3e50);
+}
+
+.card-4 {
+  background: linear-gradient(to bottom, #f45c43 , #eb3349);
+}
+
+.card-5 {
+  background: linear-gradient(to bottom, #43cea2  , #185a9d);
+}
+
+.card-6 {
+  background: linear-gradient(to bottom, #ffd89b  , #19547b);
+}
+
+.card-7 {
+  background: linear-gradient(to bottom, #000428  , #004e92);
+}
+
+.card-8 {
+  background: linear-gradient(to bottom, #614385  , #516395);
+}
+
+/* RESPONSIVE */
+
+@media (max-width: 600px) {
+  .cards {
+    justify-content: center;
+  }
+}
+</style>
