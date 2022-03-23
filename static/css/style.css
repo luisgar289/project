@@ -301,4 +301,8 @@ footer{
         font-size: 15px;
         margin-left: 0px;
     }
+
+    .este{
+        flex-direction: column;
+    }
 }
