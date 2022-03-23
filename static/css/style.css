@@ -5,6 +5,11 @@ body{
     font-family: 'Merriweather', serif;
 }
 
+p, div, h3, h2, h1, ol, h4{
+    padding: 0px 20px;
+    max-width: 100%;
+}
+
 header{
     background: rgba(255, 255, 255, 0.3);
     box-shadow: 0 4px 8px 0 rgba(0,0,0,0.4);
