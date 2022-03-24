@@ -240,7 +240,7 @@ footer{
 
 @media (max-width: 600px){
     p, div, h3, h2, h1, ol, h4{
-        margin-left: 20px;
+        padding: 0px 10px;
         max-width: 90%;
     }
 
