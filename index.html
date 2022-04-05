@@ -6,101 +6,49 @@
         <title>Inicio</title>
         <meta name="viewport" content="width=device-width, user-scalable=no, initial-scale=1, maximum-scale=1, minimum-scale=1">
     </head>
-    <body style="background-image: linear-gradient(rgb(137, 255, 143), rgba(255, 235, 52, 0.74));">
+    <body>
         <header>
-            <input type="checkbox" id="btn-menu">
-            <label for="btn-menu"><img src="static/img/icon_menu.png" style="width: 100%;" alt=""/></label>
-            <nav class="menu">
-                <ul>
-                    <li><a href="index.html" style="color: black;">Inicio</a></li>
-                    <li><a href="talleres.html" style="color: black;">Talleres</a></li>
-                    <li><a href="referencias.html" style="color: black;">Referencias</a></li>
-                    <li><a href="contacto.html" style="color: black;">Contacto</a></li>
-                </ul>
-            </nav>
         </header>
-        <a href="#"><img class="centrada"src="static/img/3143372.png" alt="https://www.freepik.com/vectors/people"></a>
-        <h1>Bienvenid@, te invitamos a conocer nuestros talleres mas populares</h1>
-        <h3 style="text-align: center;">El propósito de este proyecto es poder brindar información sobre la ansiedad y <br>
-            la depresión de una forma llamativa y que no aburra. <br>
-            Con información confiable, puedes consultar todas las referencias en el apartado de <a href="referencias.html">referencias.</a><br>
-            La información a sido seleccionada por un adolescente para adolescentes, <br>
-            por eso me gustaría que puedas explorar toda la pagina y participar en las actividades que se encuentran en algunos temas<br>
-            Esta pagina la puedes visualizar desde cualquier dispositivo <br>
-        </h3>
-        <section style="height: 500px;">
-            <div class="pic-ctn">
-                <div>
-                    <div class="pic-ctn-text">
-                        <a href="talleres.html" style="text-decoration: none;">
-                            <img class="carrusel" src="static/img/ansiedad.png" alt="">
-                        <h2>Control de Ansiedad</h2>
-                        <p>
-                            ¿Sabias que?... Existen multiples técnicas para</Em><br>
-                            controlar los ataques de ansiedad.
-                        </p>
-                        </a>
-                    </div>
-                </div>
-                <div>
-                    <div class="pic-ctn-text">
-                      <a href="talleres.html" style="text-decoration: none;">
-                            <img class="carrusel" src="static/img/depresion.png" alt="">
-                        <h2>Causas de la Depresión</h2>
-                        <p>
-                            Te has preguntado ¿porque algunas personas<br>
-                            desarrollan depresión?
-                        </p>
-                        </a>
-                    </div>
-                </div>
-                <div>
-                    <div class="pic-ctn-text" >
-                        <a href="talleres.html" style="text-decoration: none;">
-                            <img class="carrusel" src="static/img/Terapia.png" alt="">
-                        <h2>Terapia</h2>
-                        <p>
-                            ¿Conoces la forma correcta de tener una <br>
-                            correcta sesión una terapia?
-                        </p>
-                        </a>
-                    </div>
-                </div>
-                <div>
-                    <div class="pic-ctn-text">
-                        <a href="talleres.html" style="text-decoration: none;">
-                            <img class="carrusel" src="static/img/amistad.png" alt="">
-                        <h2>Amistad</h2>
-                        <p>
-                            ¿Sabias que alejas a tus amigos mientras sufres ansiedad y depresión? <br>
-                            Conoce como NO hacerlo!
-                        </p>
-                        </a>
-                    </div>
-                </div>
-                <div>
-                    <div class="pic-ctn-text">
-                        <a href="talleres.html" style="text-decoration: none;">
-                            <img class="carrusel" src="static/img/hobby.png" alt="">
-                        <h2>Pasatiempos</h2>
-                        <p>
-                            Tus pasatiempos ayudan a distraer tu mente <br>
-                            averigua tus pasatiempos y cómo pueden ayudarte.
-                        </p>
-                        </a>
-                    </div>
-                </div> 
-            </div>
-        </section>
-        <img class="centrada"src="static/img/3143372.png" alt="https://www.freepik.com/vectors/people">
-        
+        <h1>Gracias por tu visita seria de mucha ayuda registrar visita</h1>
+        <form action="registro.php" method="post">
+            <label>Nombre</label><br><br>
+            <input type="text" name="nombre" placeholder="Nombre"><br><br>
+            <label>Correo Electronico</label><br><br>
+            <input type="text" name="email" placeholder="Email"><br><br>
+            <label>Edad</label><br><br>
+            <input type="text" name="edad" placeholder="Edad"><br><br>
+            <button type="submit"><a href="inicio.html">Registrar</a></button>
+        </form>
     </body>
-    <footer>
-        <br>
-        <p>En la sección de contacto te dejamos algunas opciones de apoyo psicológico, todas son de acceso gratuito.</p>
-        Prevenir la ansiedad y depresión en jóvenes de 15 a 24 años<br>
-        &#169 Luis Garcia<br>
-        <p>Proyecto Integradora II</p>
-        <br>
-    </footer>
 </html>
+
+<style>
+    header{
+    width: 100%;
+    background: #4E94AB;
+    height: 50px;
+    }
+    form{
+        width: 250px;
+        height: 280px;
+        background: #4E94AB;
+        text-align: center;
+        margin: auto;
+        padding: 10px;
+        border-radius: 10px;
+    }
+    button{
+        width: 30%;
+        height: 30px;
+        background: #5fd7ff;
+        border-radius: 10px;
+        border: none;
+        color: white;
+        font-size: 15px;
+        cursor: pointer;
+    }
+    button a{
+        text-decoration: none;
+        color: black;
+    }
+</style>
