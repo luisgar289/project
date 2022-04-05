@@ -1,6 +1,8 @@
 <?php
-    $client = new MongoDB\Client('mongodb+srv://luisgarcia:luisgarcia15@cluster0.7nfcf.mongodb.net/myFirstDatabase?retryWrites=true&w=majority');
-    $db = $cliente->selectDB("registros");
+    $client = new MongoDB\Client(
+        'mongodb+srv://<username>:luisgarcia15@<cluster-address>/test?retryWrites=true&w=majority'
+    );
+    $db = $client->registros;
     $visita = $db->selectCollection($db,"registro_visitas");
 
     $nombre = $_POST["nombre"];
